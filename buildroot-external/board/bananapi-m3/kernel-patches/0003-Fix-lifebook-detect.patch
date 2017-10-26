@@ -1,0 +1,11 @@
+--- linux/linux-sunxi/drivers/input/mouse/lifebook.h.orig	2017-10-24 16:33:45.824274692 +0200
++++ linux/linux-sunxi/drivers/input/mouse/lifebook.h	2017-10-24 20:41:56.660800674 +0200
+@@ -19,7 +19,7 @@
+ inline void lifebook_module_init(void)
+ {
+ }
+-inline int lifebook_detect(struct psmouse *psmouse, bool set_properties)
++int lifebook_detect(struct psmouse *psmouse, bool set_properties)
+ {
+ 	return -ENOSYS;
+ }

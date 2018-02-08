@@ -2,7 +2,7 @@ BOARD=raspmatic_rpi3
 # BOARD=raspmatic_rpi0
 # BOARD=raspmatic_tinkerboard
 # BOARD=raspmatic_docker
-BUILDROOT_VERSION=2017.11.2
+BUILDROOT_VERSION=2018.02-rc1
 VERSION=$(shell cat ./VERSION)
 
 .PHONY: all
